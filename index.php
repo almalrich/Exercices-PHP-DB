@@ -10,7 +10,7 @@
 
 $servername = "localhost";
 $username = "id7331190_seb";
-$password = "bastos16";
+$password = "";
 $dbname = "id7331190_nouvelles";
 
 $conn = new mysqli($servername, $username, $password);
