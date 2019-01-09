@@ -8,26 +8,21 @@
 
 // Premiere ligne
 
+<<<<<<< HEAD
 $servername = "localhost";
 $username = "id7331190_seb";
 $password = "";
 $dbname = "id7331190_nouvelles";
-
-$conn = new mysqli($servername, $username, $password);
-
-if ($conn->connect_error){
-
-    die("Connection failed: " . $conn->connect_error);
-}
-else
-{
-// Selectionner la base à utiliser
-    $conn->select_db($dbname);
-
-}
+=======
+>>>>>>> parent of 178bb07... 1er commit
 
 
 
+
+
+
+
+<<<<<<< HEAD
 
 function ana ($prenom, $nom, $age, $conn){
     $sql = "INSERT INTO eleves VALUES (NULL,'$prenom','$nom','$age')";
@@ -204,3 +199,5 @@ id: <input type="text" name="id6"><br>
 
 </body>
 </html>
+=======
+>>>>>>> parent of 178bb07... 1er commit
