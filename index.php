@@ -8,13 +8,11 @@
 
 // Premiere ligne
 
-<<<<<<< HEAD
+
 $servername = "localhost";
 $username = "id7331190_seb";
 $password = "";
 $dbname = "id7331190_nouvelles";
-=======
->>>>>>> parent of 178bb07... 1er commit
 
 
 
@@ -22,7 +20,8 @@ $dbname = "id7331190_nouvelles";
 
 
 
-<<<<<<< HEAD
+
+
 
 function ana ($prenom, $nom, $age, $conn){
     $sql = "INSERT INTO eleves VALUES (NULL,'$prenom','$nom','$age')";
@@ -199,5 +198,4 @@ id: <input type="text" name="id6"><br>
 
 </body>
 </html>
-=======
->>>>>>> parent of 178bb07... 1er commit
+
